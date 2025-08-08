@@ -29,7 +29,9 @@ int main(void)
   
   4 - juntando tudo e atribuindo em v temos o comando abaixo: */
   
-  v = (float *) malloc(num_componentes * sizeof(float));
+  // malloc solicita um bloco de memoria 
+                      // Dois float 
+  v = (float *) malloc(num_componentes * sizeof(float)); // retorna tamanho do float q geralmente 4 bytes
   
   //Armazenando os dados em um vetor
   for (i = 0; i < num_componentes; i++)
@@ -47,5 +49,5 @@ int main(void)
   //liberando o espa�o de mem�ria alocado
   free(v);
 
-  
+
 }
