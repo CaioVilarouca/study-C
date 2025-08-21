@@ -40,7 +40,7 @@ int main(void)
     scanf("%f",&v[i]);
   }
   
-  // ------ Percorrendo o vetor e imprimindo os valores ----------
+  // ------ Percorrendo o vetor e imprimindo os valores aonde estao apontados ----------
   printf("\n*********** Valores do vetor dinamico ************\n\n");
   
   for (i = 0;i < num_componentes; i++)
