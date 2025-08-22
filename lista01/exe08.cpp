@@ -9,4 +9,4 @@ int main() {
     printf("Informe seu sexo M/F: ");
     scanf(" %c", &sexy);
     printf("Seu sexo e %c", sexy);
-} 
+}
