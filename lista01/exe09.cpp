@@ -6,8 +6,8 @@
 #include <cstdio>
 
 int main() {
-    char color[10];
+    char color[20];
     printf("Informe o nome de uma cor: ");
-    scanf("%9s", color);
+    scanf("%19c", color);
     printf("Cor: %s", color);
 }
